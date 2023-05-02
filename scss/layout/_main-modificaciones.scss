@@ -1,0 +1,64 @@
+.h1 {font-size: 50px;
+     margin-top: 10px;
+     font-weight: bold;
+     text-decoration: underline;
+     margin-left: 65px;
+     letter-spacing: 3px;}
+
+.inicio-1 {font-size: 20px;
+           text-align: justify;
+           margin-left: 75px;
+           margin-right: 20px;
+           margin-top: 10px;
+           width: 80%;
+           letter-spacing: 3px;}
+
+.h2 {font-size: 30px;
+     margin-top: 10px;
+     font-weight: bold;
+     margin-left: 60px;
+     text-decoration: underline;
+     letter-spacing: 3px;}
+
+.mod-comunes {font-size: 20px;
+              text-align: justify;
+              font-weight: bold;
+              margin-left: 80px;
+              margin-top: 10px;
+              letter-spacing: 3px;}
+
+.mod-1 {@include mod} 
+
+.mod-2 {@include mod} 
+
+.mod-3 {@include mod} 
+
+.dd-1 {@include dd}
+
+.dd-2 {@include dd;}
+
+.dd-3 {@include dd}
+
+.dd-4 {@include dd}
+
+.repro { @include img-2}
+
+.kyn {@include img-2}
+
+.escape{ @include img-2}
+
+.apr {@include img-1}
+
+.revo {@include img-1}
+
+.repro {border-radius: 8%;
+        border: solid black;}
+
+.apr {border-radius: 8%;
+      border: solid black;}
+.escape {border-radius: 8%;
+         border: solid black;}
+
+.kyn {border-radius: 8%;
+      border: solid black;}
+

@@ -1,0 +1,345 @@
+.main-historia {
+    color: gray;}
+
+.mk1 {width: 90%;
+margin-left: 5%;}
+.mk2 {width: 90%;
+    margin-left: 5%;}
+.mk3 {width: 90%;
+     margin-left: 5%;}
+.mk4 {width: 90%;
+     margin-left: 5%;}
+.mk5 {width: 90%;
+    margin-left: 5%;}
+.mk6 {width: 90%;
+     margin-left: 5%;}
+.mk7 {width: 90%;
+    margin-left: 5%;}
+.mk8 {width: 90%;
+    margin-left: 5%;}
+.fin-historia {width: 90%;
+    margin-left: 5%;}
+
+// mk1//
+.subtitulo-1 {grid-area: sub-1;
+    @include subtitulo}
+
+.p-1 {grid-area: p-1;
+     @include parrafo}
+
+.mk1-sub {grid-area: mk1-sub;
+          font-size: 20px;
+          text-align: justify;
+          margin-right: 20px;
+          width: 50%;
+          margin-left: 300px;
+          letter-spacing: 3px;}
+
+.img-mk1 {grid-area: img-mk1;
+          width: 50%;
+          margin-top: 10px;
+          margin-left: 300px;
+          border-radius: 8%;
+          border: solid black;}
+
+.mk1{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-1        . "
+" p-1       p-1       p-1 "
+" img-mk1 img-mk1 img-mk1 "
+" mk1-sub mk1-sub mk1-sub ";}
+
+/* mk2 */
+.subtitulo-2 {grid-area: sub-2;
+    @include subtitulo}
+
+.p-2 {grid-area: p-2;
+    @include parrafo}
+
+.img-mk2 {grid-area: img-mk2;
+          border: solid black;
+          border-radius: 8%;
+          width: 50%;
+          margin-top: 10px;
+          margin-left: 300px;}
+
+.mk2{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-2       . "
+" p-2       p-2       p-2 "
+" img-mk2 img-mk2 img-mk2 ";}
+
+/* mk3 */
+.subtitulo-3 {grid-area: sub-3;
+    @include subtitulo}
+
+.p-3 {grid-area: p-3;
+    @include parrafo}
+
+.mk3-sub {grid-area: mk3-sub;
+          font-size: 20px;
+          text-align: justify;
+          font-weight: bold;
+          margin-right: 20px;
+          width: 55%;
+          margin-left: 420px;
+          text-decoration: underline;
+          letter-spacing: 3px;
+          color: black;}
+
+.img-mk3 {grid-area: img-mk3;
+          border: solid black;
+          border-radius: 8%;
+          width: 50%;
+          margin-top: 10px;
+          margin-left: 300px;}
+
+.img-mk3-2 {grid-area: img-mk3-2;
+            border: solid black;
+            border-radius: 8%;
+            width: 50%;
+            margin-left: 300px;
+            margin-top: 10px;}
+
+.mk3{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .          sub-3          . "
+" p-3         p-3         p-3 "
+"img-mk3    img-mk3   img-mk3 "
+"img-mk3-2 img-mk3-2 img-mk3-2"
+" mk3-sub mk3-sub     mk3-sub ";}
+
+/* mk4 */
+.subtitulo-4 {grid-area: sub-4;
+    @include subtitulo}
+
+.p-4 {grid-area: p-4;
+    @include parrafo}
+
+.p-4-sub {grid-area: p-4-sub;
+          font-size: 20px;
+          text-align: justify;
+          margin-right: 20px;
+          width: 80%;
+          font-weight: bold;
+          margin-left: 500px;
+          text-decoration: underline;
+          letter-spacing: 3px;
+          color: black;}
+
+.img-mk4 {grid-area: img-mk4;
+          border: solid black;
+          border-radius: 8%;
+          width: 50%;
+          margin-top: 10px;
+          margin-left: 300px;}
+
+
+.img-mk4-2 {grid-area: img-mk4-2;
+            border: solid black;
+            border-radius: 8%;
+            width: 50%;
+            margin-left: 300px;
+            margin-top: 10px;}
+
+.mk4{grid-template-areas:
+".        sub-4           ."
+"p-4       p-4          p-4"
+"img-mk4 img-mk4    img-mk4"
+".      img-mk4-2 img-mk4-2"
+".       p-4-sub    p-4-sub";}
+
+/* mk5 */
+.subtitulo-5 {grid-area: sub-5;
+    @include subtitulo}
+
+.p-5 {grid-area: p-5;
+    @include parrafo}
+
+.p-5-2 {grid-area: p-5-2;
+    @include parrafo}
+
+.p-5-3 {grid-area: p-5-3;
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 450px;
+        font-weight: bold;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-decoration: underline;
+        letter-spacing: 3px;
+        color: black;}
+
+.p-5-4 {grid-area: p-5-4;
+    @include parrafo}
+
+.img-mk5 {grid-area: img-mk5;
+          border: solid black;
+          border-radius: 8%;
+          width: 50%;
+          margin-top: 5px;
+          margin-left: 300px;}
+
+.img-mk5-2 {grid-area: img-mk5-2;
+            border: solid black;
+            border-radius: 8%;
+            width: 50%;
+            margin-top: 10px;
+            margin-left: 300px;}
+
+
+.mk5{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-5          . "
+"p-5         p-5          p-5"
+" img-mk5  img-mk5    img-mk5"
+" p-5-2     p-5-2      p-5-2 "
+" .       img-mk5-2 img-mk5-2"
+" .         p-5-3       p-5-3"
+" p-5-4     p-5-4       p-5-4"}
+
+/* mk6 */
+.subtitulo-6 {grid-area: sub-6;
+    @include subtitulo}
+
+.p-6 {grid-area: p-6;
+    @include parrafo}
+
+.p-6-2 {grid-area: p-6-2;
+    @include parrafo}
+
+.p-6-3 {grid-area: p-6-3;
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 450px;
+        font-weight: bold;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-decoration: underline;
+        letter-spacing: 3px;
+        color: black;}
+.img-mk6 {grid-area: img-mk6;
+          border: solid black;
+          border-radius: 8%;
+          width: 50%;
+          margin-top: 10px;
+          margin-block-end: 5px;
+          margin-left: 300px;}
+
+.img-mk6-2 {grid-area: img-mk6-2;
+            border: solid black;
+            border-radius: 8%;
+            width: 50%;
+            margin-top: 10px;
+            margin-left: 300px;}
+
+.mk6 {display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-6          . "
+" p-6        p-6          p-6"
+" img-mk6  img-mk6    img-mk6"
+" p-6-2     p-6-2      p-6-2 "
+" .       img-mk6-2 img-mk6-2"
+" .         p-6-3       p-6-3"}
+
+/* mk7 */
+.subtitulo-7 {grid-area: sub-7;
+    @include subtitulo}
+
+.p-7 {grid-area: p-7;
+    @include parrafo}
+
+.p-7-2 {grid-area: p-7-2;
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 360px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-decoration: underline;
+        letter-spacing: 3px;
+        color: black;}
+
+.p-7-3 {grid-area: p-7-3;
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 90px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-decoration: underline;
+        letter-spacing: 3px;
+        color: black;}        
+
+.img-mk7 {grid-area: img-mk7;
+          border: solid black;
+          border-radius: 8%;
+          width: 50%;
+          margin-top: 10px;
+          margin-left: 300px;}
+
+.img-mk7-2 {grid-area: img-mk7-2;
+            border: solid black;
+            border-radius: 8%;
+            width: 50%;
+            margin-top: 10px;
+            margin-left: 300px;}
+
+.img-mk7-3 {grid-area: img-mk7-3;
+            border: solid black;
+            border-radius: 8%;
+            margin-right: 20px;
+            margin-left: 10px;
+            width: 47%;
+            margin-top: 10px;}
+
+.mk7 {display: grid;
+grid-template-columns: 47% 1% 47%;
+grid-template-areas:
+"sub-7 sub-7 sub-7  "
+"p-7 p-7 p-7"
+"img-mk7 img-mk7 img-mk7"
+"img-mk7-2 . img-mk7-3"
+"p-7-2 . p-7-3"}
+
+/* mk8 */
+.subtitulo-8 {grid-area: sub-8;
+    @include subtitulo }
+
+.p-8 {grid-area: p-8;
+    @include parrafo}
+
+.img-mk8 {grid-area: img-mk8;
+          border: solid black;
+          border-radius: 8%;
+          width: 50%;
+          margin-top: 10px;
+          margin-block-end: 10px;
+          margin-left: 300px;}
+
+.mk8{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-8        . "
+" p-8       p-8       p-8 "
+" img-mk8 img-mk8 img-mk8 "; }
+
+/*fin historia  */
+.p-9 {color: black;
+    @include parrafo}
+
+.p-9-2 {font-size: 30px;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-decoration: underline;}
+
+.img-9 {width: 95%;
+        margin-top: 10px;
+        margin-block-end: 10px;
+        margin-left: 26px;
+        margin-right: 10px;}
